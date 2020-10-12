@@ -1,51 +1,22 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./FreePass-Calendar.css">
   <title>공부달력</title>
   <!--스타일링 추가-->
-  <style>
-    html {
-      height: 100%;
-    }
-
-    body {
-      height: 100%;
-      margin: 0;
-      position: relative;
-    }
-
-    #calendar {
-      height: 99%;
-      box-sizing: border-box;
-      padding: 0.5%;
-    }
-
-    .calendar__day {
-      display: inline-block;
-      vertical-align: bottom;
-      width: calc(97% / 7);
-      height: calc(98% / 5);
-      box-sizing: border-box;
-      border-radius: 5px;
-      padding: 20px;
-    }
-
-    .horizontalGutter {
-      margin-right: 0.5%;
-    }
-
-    .verticalGutter {
-      margin-top: 0.5%;
-    }
-  </style>
 </head>
-
 <body>
+<nav>
+  <div class="navbar">    
+    <div id="title">
+      <a href="./FreePass-Blurb.html"><img class="title-img" src="./FreePass-Image/title-img.png" alt="tilte-img" title="광고페이지로 이동하기" width="198px"></a>
+    </div> 
+  </div>
+</nav>
   <div id="calendar"></div>
   <script>
     const today = new Date();

@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+#calendar {
+  height: 99%;
+  box-sizing: border-box;
+  padding: 0.5%;
+}
+.calendar__day {
+  display: inline-block;
+  vertical-align: bottom;
+  width: calc(97% / 7);
+  height: calc(98% / 5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 24px;
+}
+.calendar__day.horizontalGutter:hover,.calendar__day:hover{
+  font-size: 1.45rem;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.horizontalGutter {
+  margin-right: 0.5%;
+}
+.verticalGutter {
+  margin-top: 0.5%;
+}
+#title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid #1a1a2e 8px;
+}
+.navbar{
+  width: 100%;
+  height: 150px;
+}
+#title{
+  margin-top: 8px;
+  height: 100%;
+}
+.title-img{
+  margin-left: 25px;
+}
