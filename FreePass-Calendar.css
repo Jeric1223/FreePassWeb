@@ -6,12 +6,15 @@ body {
   margin: 0;
   position: relative;
 }
+nav{
+  margin-bottom: 25px;
+}
 #calendar {
   height: 99%;
   box-sizing: border-box;
   padding: 0.5%;
 }
-.calendar__day {
+.calendar__day{
   display: inline-block;
   vertical-align: bottom;
   width: calc(97% / 7);
@@ -21,14 +24,19 @@ body {
   padding: 20px;
   margin-top: 24px;
 }
+span{
+  display: block;
+}
 .calendar__day.horizontalGutter:hover,.calendar__day:hover{
-  font-size: 1.45rem;
-  transition: 0.6s;
+  font-size: 1.23rem;
+  transition: 0.32132132121849492132322311321484s;
   cursor: pointer;
 }
-
 .horizontalGutter {
   margin-right: 0.5%;
+}
+.Calendar-input{
+  width: 65%;
 }
 .verticalGutter {
   margin-top: 0.5%;
